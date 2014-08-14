@@ -1,0 +1,36 @@
+{
+  "name": "Chaplin: a mute button for Google Hangouts",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Adds a microphone mute button to the Chrome URL bar",
+  "homepage_url": "http://github.com/zarino/chaplin",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Mute microphone"
+  },
+  "permissions": [
+    "*://plus.google.com/hangouts/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://plus.google.com/hangouts/*"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
