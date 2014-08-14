@@ -6,7 +6,19 @@ Or maybe you’ve just been asked to speak, and now that all eyes are on you, yo
 
 Chaplin (the world’s most famous mute) is here to help.
 
-Chaplin lives silently in Chrome, and only gets activated on Hangouts pages, so he won’t eat up all your memory. Click his icon, and your microphone is **instantly** muted or unmuted. Bliss.
+Chaplin lives silently in Google Chrome, and only gets activated on Hangouts pages, so he won’t eat up all your memory. Click his icon, and your microphone is **instantly** muted or unmuted. Bliss.
+
+### How to install (assuming you’re on a Mac)
+
+1. Open Terminal.
+2. `cd` to some place you keep random scripts and stuff (in Zarino’s case, `~/repos`)
+3. `git clone git@github.com:zarino/chaplin.git`
+4. Open up [chrome://extensions](chrome://extensions) in Chrome
+5. Tick the **Developer mode** checkbox
+6. Press the **Load unpacked extension…** button, and select the directory you cloned in step 3 (eg: `~/repos/chaplin`)
+7. Open up a Google Hangout and see it in action :-)
+
+To pull the latest version of the extension, `cd` into the repo and run `git pull`. The extension will be reloaded next time you launch Chrome.
 
 ### How it works
 
