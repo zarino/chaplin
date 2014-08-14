@@ -13,12 +13,12 @@ Chaplin lives silently in Google Chrome, and only gets activated on Hangouts pag
 1. Open Terminal.
 2. `cd` to some place you keep random scripts and stuff (in Zarino’s case, `~/repos`)
 3. `git clone git@github.com:zarino/chaplin.git`
-4. Open up <a href="chrome://extensions">chrome://extensions</a> in Chrome
+4. Open up **chrome://extensions** in Chrome
 5. Tick the **Developer mode** checkbox
 6. Press the **Load unpacked extension…** button, and select the directory you cloned in step 3 (eg: `~/repos/chaplin`)
 7. Open up a Google Hangout and see it in action :-)
 
-To pull the latest version of the extension, `cd` into the repo and run `git pull`. The extension will be reloaded next time you launch Chrome.
+To pull the latest version of the extension, `cd` into the repo and run `git pull`. Open **chrome://extensions** and click the **Reload (⌘R)** link under the Chaplin icon.
 
 ### How it works
 
